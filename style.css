@@ -1,0 +1,66 @@
+body {
+	font-family: Arial, sans-serif;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+h1 {
+	font-style: italic;
+}
+
+a {
+	color: blue;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover {
+	color: green;
+	text-decoration: none;
+}
+	
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	
+}
+
+.container p {
+	width: 15%; 
+	text-align: center;
+}
+
+header {
+	border: 2px dashed black;
+	width: 25%;
+	text-align: center;
+	padding: 5px;
+	margin: auto;
+	background-color: lightblue;
+}
+
+.container h4 {
+	width: 15%;
+	text-align: center;
+}
+
+.container ul {
+	width: 33%;
+	text-align: left;
+	list-style-position: inside;
+	padding-left: 0;
+	margin: 0 auto;
+}
+
