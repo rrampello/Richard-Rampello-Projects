@@ -1,3 +1,1 @@
-HTML and CSS first project
-It is my resume
-I code in notepad, although I have video studio code as well
+HTML and CSS first project, which is my resume.  I code in notepad, although I have visual code studio as well.
