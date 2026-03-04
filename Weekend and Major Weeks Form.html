@@ -22,7 +22,7 @@
 	    <div class="grid-header">6</div>
 	    <div class="grid-header">7</div>
 	    <div class="grid-header">8</div>
-
+	    
             <div class="holiday-name">4th of July<br>(July 3-5, 2026)</div>
 	    
             <input type="radio" name="july4" value="1">
@@ -140,7 +140,7 @@
 	   
 
             <div class="major-name">Christmas Week<br>(December 21-24, 2026)</div>
-            <input type="radio" name="than" value="1">
+            <input type="radio" name="christmas-w" value="1">
             <input type="radio" name="christmas-w" value="2">
             <input type="radio" name="christmas-w" value="3">
             <input type="radio" name="christmas-w" value="4">
@@ -188,6 +188,28 @@
 	    <input type="radio" name="fiscal-end" value="6">
             <input type="radio" name="fiscal-end" value="7">
         </div>
+
+	    <div class="shift-preference">
+            	<h3>Shift Preference</h3>
+            	<p>Select your preferred shift for these holidays/weeks:</p>
+            	<select name="shift-preference" id="shift-select" required>
+                	<option value="" disabled selected>-- Choose a Shift --</option>
+                	<option value="days">Days</option>
+                	<option value="evenings">Evenings</option>
+                	<option value="both">Both</option>
+            	</select>
+        </div>
+
+	    <div class="notes-section">
+    		<h3>Additional Notes</h3>
+    		<p>Please include any specific requests or scheduling constraints below:</p>
+    		<textarea 
+        		name="user-notes" 
+        		id="user-notes" 
+        		placeholder="Enter your notes here..." 
+        		rows="5"
+    		></textarea>
+	    </div>
 
         <button type="submit" class="submit-btn">Submit Rankings</button>
     </form>

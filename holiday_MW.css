@@ -72,6 +72,56 @@ input[type="radio"] {
     justify-self: center; /* Centers the radio button in its grid cell */
 }
 
+.shift-preference {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.shift-preference h3 {
+    margin-top: 0;
+}
+
+#shift-select {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#shift-select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.notes-section {
+    margin: 30px 0;
+    text-align: left; /* Aligns the label/text to the left for better readability */
+}
+
+#user-notes {
+    width: 100%; /* Makes it span the full width of the form container */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit; /* Ensures the font matches the rest of your form */
+    font-size: 1rem;
+    resize: vertical; /* Allows users to expand the box vertically, but not horizontally (which breaks layouts) */
+    box-sizing: border-box; /* Ensures padding doesn't push the box outside the container */
+}
+
+#user-notes:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,123,255,0.2);
+}
+
 .submit-btn {
     display: flex;  
     margin: 30px auto 0 auto;
