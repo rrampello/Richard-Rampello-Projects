@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.ranking-form {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.grid-container-rankings {
+    display: grid;
+    /* Column 1 is auto-sized; Columns 2-8 are 50px wide */
+    grid-template-columns: 2fr repeat(8, 50px);
+    gap: 15px 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.grid-header{
+    font-weight: bold;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.grid-header:first-child {
+    text-align: left;
+}
+
+.holiday-name {
+    font-weight: 500;
+    color: #333;
+}
+
+.grid-container-major {
+    display: grid;
+    /* Column 1 is auto-sized; Columns 2-7 are 50px wide */
+    grid-template-columns: 2fr repeat(7, 50px);
+    gap: 15px 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.grid-header-major {
+    font-weight: bold;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.grid-header-major:first-child {
+    text-align: left;
+}
+
+.major-name {
+    font-weight: 500;
+    color: #333;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    justify-self: center; /* Centers the radio button in its grid cell */
+}
+
+.submit-btn {
+    display: flex;  
+    margin: 30px auto 0 auto;
+    justify-content: center;
+    width: 25%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: darkgreen;
+}
