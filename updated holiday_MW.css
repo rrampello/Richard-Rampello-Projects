@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.ranking-form {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 150px repeat(2, 1fr); /* Widths for Name, Input and Dropdown */
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px auto;
+}
+
+.grid-header{
+    font-weight: bold;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.grid-header:first-child {
+    text-align: left;
+}
+
+.holiday-name {
+    font-weight: 500;
+    color: #333;
+}
+
+.major-name {
+    font-weight: 500;
+    color: #333;
+}
+
+input[type="text"], select {
+    padding: 8px;
+    border: 1px sold #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#user-notes {
+    width: 100%; /* Makes it span the full width of the form container */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit; /* Ensures the font matches the rest of your form */
+    font-size: 1rem;
+    resize: vertical; /* Allows users to expand the box vertically, but not horizontally (which breaks layouts) */
+    box-sizing: border-box; /* Ensures padding doesn't push the box outside the container */
+}
+
+#user-notes:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,123,255,0.2);
+}
+
+.submit-btn {
+    display: flex;  
+    margin: 30px auto 0 auto;
+    justify-content: center;
+    width: 25%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: darkgreen;
+}

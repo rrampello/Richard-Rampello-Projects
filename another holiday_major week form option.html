@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holidays and Major Weeks</title>
+    <link rel="stylesheet" href="updated holiday_MW.css">
+</head>
+<body>
+
+    <form class="ranking-form" action=" " method="POST">
+        <h2>Holiday Rankings</h2>
+        <p>1 = Most Preferred | 8 = Least Preferred</p>
+
+        <div class="grid-container">
+            <div class="grid-header">Holiday</div>
+            <div class="grid-header">Ranking Number</div>
+            <div class="grid-header">Shift Preference</div>
+           	    
+            <div class="holiday-name">4th of July<br>(July 3-5, 2026)</div>
+            <input type="text" name="july4" placeholder="Enter ranking">
+            <select>
+		<option value="days">Days</option>
+		<option value="evenings">Evenings</option>
+		<option value="both">Both</option>
+	    </select>
+
+            <div class="holiday-name">Labor Day<br>(September 5-7, 2026)</div>
+            <input type="text" name="labor-day" placeholder="Enter ranking">
+            <select>
+		<option value="days">Days</option>
+		<option value="evenings">Evenings</option>
+		<option value="both">Both</option>
+	    </select>
+
+            <div class="holiday-name">Thanksgiving Weekend<br>(November 28-29, 2026)</div>
+            <input type="text" name="thanksgiving" placeholder="Enter ranking">
+             <select>
+		<option value="days">Days</option>
+		<option value="evenings">Evenings</option>
+		<option value="both">Both</option>
+	    </select>
+           
+
+            <div class="holiday-name">Christmas<br>(December 25-27, 2026)</div>
+            <input type="text" name="christmas" placeholder="Enter ranking">
+            <select>
+		<option value="days">Days</option>
+		<option value="evenings">Evenings</option>
+		<option value="both">Both</option>
+	    </select>
+
+	    <div class="holiday-name">New Years<br>(January 1-3, 2027)</div>
+            <input type="text" name="new-years" placeholder="Enter ranking">
+             <select>
+		<option value="days">Days</option>
+		<option value="evenings">Evenings</option>
+		<option value="both">Both</option>
+	    </select>
+
+	    <div class="holiday-name">Martin Luther King, Jr. Day<br>(January 16-18, 2027)</div>
+            <input type="text" name="mlk" placeholder="Enter ranking">
+            <select>
+		<option value="days">Days</option>
+		<option value="evenings">Evenings</option>
+		<option value="both">Both</option>
+	    </select>
+
+	    <div class="holiday-name">Memorial Day<br>(May 29-31, 2027)</div>
+            <input type="text" name="memorial" placeholder="Enter ranking">
+            <select>
+		<option value="days">Days</option>
+		<option value="evenings">Evenings</option>
+		<option value="both">Both</option>
+	    </select>
+
+	    <div class="holiday-name">Juneteenth<br>(June 18-20, 2027)</div>
+            <input type="text" name="juneteenth" placeholder="Enter ranking">
+            <select>
+		<option value="days">Days</option>
+		<option value="evenings">Evenings</option>
+		<option value="both">Both</option>
+	    </select>
+        </div>
+
+	<h2>Major Week Rankings</h2>
+        <p>1 = Most Preferred | 7 = Least Preferred</p>
+
+        <div class="grid-container">
+            <div class="grid-header">Major Week</div>
+            <div class="grid-header">Ranking Number</div>
+            <div class="grid-header">Shift Preference</div>
+
+            <div class="major-name">New Hire Orientation<br>(June 29-July 2, 2026)</div>
+	    
+            <input type="text" name="new-hire" placeholder="Enter ranking">
+            <select>
+		<option value="days">Days</option>
+		<option value="evenings">Evenings</option>
+		<option value="both">Both</option>
+	    </select>
+		   
+            <div class="major-name">Thanksgiving Week<br>(November 23-27, 2026)</div>
+            <input type="text" name="thanks-week" placeholder="Enter ranking">
+            <select>
+		<option value="days">Days</option>
+		<option value="evenings">Evenings</option>
+		<option value="both">Both</option>
+	    </select>
+	   
+
+            <div class="major-name">Christmas Week<br>(December 21-24, 2026)</div>
+            <input type="text" name="christmas-w" placeholder="Enter ranking">
+            <select>
+		<option value="days">Days</option>
+		<option value="evenings">Evenings</option>
+		<option value="both">Both</option>
+	    </select>
+        
+
+            <div class="holiday-name">New Years Week<br>(December 28-31, 2026)</div>
+            <input type="text" name="ny-week" placeholder="Enter ranking">
+            <select>
+		<option value="days">Days</option>
+		<option value="evenings">Evenings</option>
+		<option value="both">Both</option>
+	    </select>
+            
+
+	    <div class="holiday-name">February Break<br>(February 15-19, 2027)</div>
+            <input type="text" name="feb-break" placeholder="Enter ranking">
+            <select>
+		<option value="days">Days</option>
+		<option value="evenings">Evenings</option>
+		<option value="both">Both</option>
+	    </select>
+           
+
+	    <div class="holiday-name">April Break<br>(March 22-26, 2027)</div>
+            <input type="text" name="april-break" placeholder="Enter ranking">
+            <select>
+		<option value="days">Days</option>
+		<option value="evenings">Evenings</option>
+		<option value="both">Both</option>
+	    </select>
+        
+
+	    <div class="holiday-name">End of Fiscal Year<br>(June 21-25, 2027)</div>
+            <input type="text" name="fiscal-end" placeholder="Enter ranking">
+            <select>
+		<option value="days">Days</option>
+		<option value="evenings">Evenings</option>
+		<option value="both">Both</option>
+	    </select>
+        </div>
+
+	    <div class="notes-section">
+    		<h3>Additional Notes</h3>
+    		<p>Please include any specific requests or scheduling constraints below:</p>
+    		<textarea 
+        		name="user-notes" 
+        		id="user-notes" 
+        		placeholder="Enter your notes here..." 
+        		rows="5"
+    		></textarea>
+	    </div>
+
+        <button type="submit" class="submit-btn">Submit Rankings</button>
+    </form>
+
+</body>
+</html>
